@@ -24,3 +24,37 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root {
+	--ion-color-teste: #cce9f9;
+	--ion-color-teste-rgb: 204,233,249;
+	--ion-color-teste-contrast: #000000;
+	--ion-color-teste-contrast-rgb: 0,0,0;
+	--ion-color-teste-shade: #b4cddb;
+	--ion-color-teste-tint: #d1ebfa;
+  --ion-color-teste1: #ffa200;
+	--ion-color-teste1-rgb: 255,162,0;
+	--ion-color-teste1-contrast: #000000;
+	--ion-color-teste1-contrast-rgb: 0,0,0;
+	--ion-color-teste1-shade: #e08f00;
+	--ion-color-teste1-tint: #ffab1a;
+}
+
+.ion-color-teste {
+	--ion-color-base: var(--ion-color-teste);
+	--ion-color-base-rgb: var(--ion-color-teste-rgb);
+	--ion-color-contrast: var(--ion-color-teste-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-teste-contrast-rgb);
+	--ion-color-shade: var(--ion-color-teste-shade);
+	--ion-color-tint: var(--ion-color-teste-tint);
+}
+
+.ion-color-teste1 {
+	--ion-color-base: var(--ion-color-teste1);
+	--ion-color-base-rgb: var(--ion-color-teste1-rgb);
+	--ion-color-contrast: var(--ion-color-teste1-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-teste1-contrast-rgb);
+	--ion-color-shade: var(--ion-color-teste1-shade);
+	--ion-color-tint: var(--ion-color-teste1-tint);
+}
+
